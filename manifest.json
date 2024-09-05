@@ -1,7 +1,7 @@
 {
-  "name": "SalePro",
-  "short_name": "SalePro",
-  "start_url": "/salepro/",
+  "name": "MKBauty",
+  "short_name": "MKBauty",
+  "start_url": "/mkbeauty/",
   "background_color": "#fff",
   "display": "standalone",
   "orientation": "portrait",

@@ -32,21 +32,21 @@
             </thead>
             <tbody>
                 <tr>
-                    <td>SalePro SaaS</td>
-                    <td>It's a standalone application to start subscription business with SalePro. It is a multi tenant system and each client will have their separate database. This application comes with free landing page, unlimited custom pages, blog, payment gateway and lots more.</td>
+                    <td>MKBauty</td>
+                    <td>It's a standalone application to start subscription business with MKBauty. It is a multi tenant system and each client will have their separate database. This application comes with free landing page, unlimited custom pages, blog, payment gateway and lots more.</td>
                     <td>
                         <div class="btn-group">
-                            <a target="_blank" href="https://lion-coders.com/software/salepro-saas-pos-inventory-saas-php-script" class="btn btn-primary btn-sm" title="SalePro SaaS"><i class="dripicons-basket"></i> Buy Now</a>&nbsp;
+                            <a target="_blank" href="https://google.com" class="btn btn-primary btn-sm" title="MKBauty"><i class="dripicons-basket"></i> Buy Now</a>&nbsp;
                         </div>
                     </td>
                 </tr>
                 <tr>
-                    <td>SalePro eCommerce</td>
-                    <td>Start an eCommerce store and manage all aspects of your eCommerce site from within SalePro. From inventories, customers, deliveries to CMS website, SEO and everything in between!</td>
+                    <td>MKBauty eCommerce</td>
+                    <td>Start an eCommerce store and manage all aspects of your eCommerce site from within MKBauty. From inventories, customers, deliveries to CMS website, SEO and everything in between!</td>
                     <td>
                         <div class="btn-group">
                             @if(!in_array('ecommerce',explode(',',$general_setting->modules)))
-                            <a target="_blank" href="https://codecanyon.net/user/lioncoders/portfolio" class="btn btn-primary btn-sm" title="SalePro eCommerce"><i class="dripicons-basket"></i> Buy Now</a>&nbsp;&nbsp;
+                            <a target="_blank" href="https://codecanyon.net/user/lioncoders/portfolio" class="btn btn-primary btn-sm" title="MKBauty eCommerce"><i class="dripicons-basket"></i> Buy Now</a>&nbsp;&nbsp;
                             <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#installeCommerceModal"><i class="dripicons-download"></i> Install</button>
                             @else
                             <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#installeCommerceModal"><i class="dripicons-download"></i> Update</button>
@@ -55,12 +55,12 @@
                     </td>
                 </tr>
                 <tr>
-                    <td>SalePro WooCommerce</td>
-                    <td>An addon to integrate SalePro with your existing WooCommerce website.</td>
+                    <td>MKBauty WooCommerce</td>
+                    <td>An addon to integrate MKBauty with your existing WooCommerce website.</td>
                     <td>
                         <div class="btn-group">
                             @if (!\Schema::hasColumn('products', 'woocommerce_product_id'))
-                            <a target="_blank" href="https://codecanyon.net/item/salepro-woocommerce-addon/46380606" class="btn btn-primary btn-sm" title="Point of sale to WooCommerce add-on for SalePro POS & inventory management php script"><i class="dripicons-basket"></i> Buy Now</a>&nbsp;&nbsp;
+                            <a target="_blank" href="https://google.com" class="btn btn-primary btn-sm" title="Point of sale to WooCommerce add-on for MKBauty POS & inventory management php script"><i class="dripicons-basket"></i> Buy Now</a>&nbsp;&nbsp;
                             <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#installWooCommerceModal"><i class="dripicons-download"></i> Install</button>
                             @else
                             <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#installWooCommerceModal"><i class="dripicons-download"></i> Update</button>
@@ -85,7 +85,7 @@
                 <p class="italic"><small>{{trans('file.The field labels marked with * are required input fields')}}.</small></p>
                 <form>
                     <div class="form-group">
-                        <label>Envato Purchase Code *</label>
+                        <label>Purchase Code</label>
                         {{Form::text('purchase_code',null,array('required' => 'required', 'class' => 'form-control', 'placeholder' => 'Type envato purchase code for WooCommerce addon...'))}}
                     </div>
                     <div class="form-group">
@@ -110,7 +110,7 @@
                 <p class="italic"><small>{{trans('file.The field labels marked with * are required input fields')}}.</small></p>
                 <form>
                     <div class="form-group">
-                        <label>Envato Purchase Code *</label>
+                        <label>Purchase Code</label>
                         {{Form::text('purchase_code',null,array('required' => 'required', 'class' => 'form-control', 'placeholder' => 'Type envato purchase code for eCommerce addon...'))}}
                     </div>
                     <div class="form-group">
